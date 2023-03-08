@@ -1,0 +1,49 @@
+{
+    "pages" : [
+		{
+		    "path" : "pages/choose/choose",
+		    "style" : {
+		        "navigationBarTitleText" : "",
+		        "enablePullDownRefresh" : false
+		    }
+		},
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        }
+    ],
+    "subPackages" : [
+        {
+            "root" : "loginPages",
+			"pages":[
+				{
+					"path":"login/login"
+				},
+				{
+					"path":"register/register"
+				}
+			    ,{
+                    "path" : "verification/verification",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+            
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8",
+		"navigationStyle": "custom"
+    },
+    "uniIdRouter" : {}
+}

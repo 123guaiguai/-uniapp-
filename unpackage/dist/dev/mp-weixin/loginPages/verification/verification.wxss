@@ -1,0 +1,161 @@
+.page {
+  padding: 0 40rpx;
+  padding-top: 40rpx;
+  background-color: #e6e9f6;
+}
+.page .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 92%;
+  border-radius: 100rpx;
+  padding: 0 50rpx;
+  padding-top: 50rpx;
+}
+.page .container .header {
+  position: relative;
+  width: 100%;
+}
+.page .container .header .icon-zuojiantou1 {
+  color: #33357d;
+  font-weight: 700;
+  font-size: 38rpx;
+  display: inline-block;
+  opacity: 0.8;
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 4rpx solid #e6e9f6;
+  border-radius: 50% 50%;
+}
+.page .container .header .title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 200rpx;
+  margin: auto;
+  font-weight: 700;
+  line-height: 50rpx;
+  color: #33357d;
+  opacity: 0.8;
+  font-size: 29rpx;
+  text-align: center;
+}
+.page .container .circle1 {
+  width: 300rpx;
+  height: 300rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  border-radius: 50% 50%;
+  border: 2rpx dashed #f7e893;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page .container .circle1 .circle2 {
+  width: 220rpx;
+  height: 220rpx;
+  border-radius: 50% 50%;
+  background-color: #fafafe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page .container .circle1 .circle2 .icon-yanzhengma {
+  width: 160rpx;
+  height: 160rpx;
+  text-align: center;
+  line-height: 160rpx;
+  background-color: #33357d;
+  border-radius: 50% 50%;
+  color: white;
+  font-size: 80rpx;
+}
+.page .container .tip {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #33357d;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.page .container .describe {
+  text-align: center;
+  color: #a2a2be;
+  font-size: 24rpx;
+  margin-top: 30rpx;
+  letter-spacing: 4rpx;
+}
+.page .container .inputContainer {
+  position: relative;
+  overflow: hidden;
+  margin-top: 30rpx;
+  height: 105rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.page .container .inputContainer .verification {
+  position: absolute;
+  box-sizing: border-box;
+  height: 103rpx;
+  width: 200%;
+  right: 0;
+  font-size: 1rpx;
+}
+.page .container .inputContainer .code {
+  box-sizing: border-box;
+  height: 103rpx;
+  width: 103rpx;
+  background-color: #fafafe;
+  border-radius: 18rpx;
+  text-align: center;
+  line-height: 103rpx;
+  font-size: 40rpx;
+  color: #33357d;
+}
+.page .container .inputContainer .activeCode {
+  border: 2rpx solid #33357d;
+}
+.page .container .phone {
+  display: flex;
+  margin-top: 40rpx;
+  margin-bottom: 70rpx;
+}
+.page .container .phone .phoneInput {
+  border-bottom: 4rpx dashed #e6e9f6;
+  color: #a2a2be;
+  text-align: center;
+  height: 55rpx;
+}
+.page .container .phone .icon-bianji {
+  height: 55rpx;
+  width: 55rpx;
+  border: 2rpx solid #e6e9f6;
+  text-align: center;
+  line-height: 55rpx;
+  color: #33357d;
+  font-size: 38rpx;
+  border-radius: 50% 50%;
+}
+.page .container .send,
+.page .container .submit {
+  width: 90%;
+  height: 80rpx;
+  border: 2rpx solid #a2a2be;
+  border-radius: 40rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #33357d;
+  font-weight: 700;
+  font-size: 28rpx;
+}
+.page .container .submit {
+  margin-top: 40rpx;
+  background-color: #33357d;
+  color: white;
+}
+

@@ -1,0 +1,109 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.page .icon-zuojiantou {
+  font-size: 65rpx;
+  color: #c1c6c4;
+  margin-bottom: 120rpx;
+}
+.page .hello {
+  width: 120rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  background-image: linear-gradient(to left, #17b8bd, #28c3b9, #42ccb1, #5ed6a8, #7bde9d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 30rpx;
+}
+.page .continue {
+  font-weight: 700;
+  font-size: 32rpx;
+  color: #abaaab;
+  margin-bottom: 110rpx;
+  letter-spacing: 4rpx;
+}
+.page .phoneTitle,
+.page .passTitle {
+  font-size: 26rpx;
+  color: #b1aeae;
+}
+.page .phoneTitle .name,
+.page .passTitle .name {
+  margin-right: 100rpx;
+  font-weight: 700;
+  color: #dbdbdb;
+  font-size: 30rpx;
+}
+.page .phoneTitle .warnning,
+.page .passTitle .warnning,
+.page .phoneTitle .error,
+.page .passTitle .error {
+  color: #f06363;
+}
+.page .inputContainer {
+  padding: 18rpx 0;
+  border-bottom: 5rpx solid rgba(238, 233, 233, 0.7);
+  margin-bottom: 60rpx;
+  position: relative;
+  transition: all 0.2s;
+}
+.page .inputContainer .phoneInput,
+.page .inputContainer .passInput {
+  font-size: 34rpx;
+  color: #8d8989;
+}
+.page .inputContainer .checkMark,
+.page .inputContainer .cross {
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 35rpx;
+  background-color: #17b5bc;
+  border-radius: 50% 50%;
+  position: absolute;
+  right: 0;
+  bottom: 18rpx;
+}
+.page .inputContainer .checkMark .icon-duihao,
+.page .inputContainer .cross .icon-duihao,
+.page .inputContainer .checkMark .icon-chahao,
+.page .inputContainer .cross .icon-chahao {
+  color: #e2fdfd;
+  font-size: 30rpx;
+}
+.page .inputContainer .cross {
+  background-color: #f092a6;
+}
+.page .inputContainer .cross .icon-chahao {
+  color: #f7f2f3;
+}
+.page .formCorrect {
+  border-color: #ace6e7;
+}
+.page .formError {
+  border-color: #f5c6d7;
+}
+.page .forgot {
+  width: 220rpx;
+  color: #28c3b9;
+  font-size: 28rpx;
+  text-align: end;
+  margin-left: auto;
+}
+.page .login {
+  height: 110rpx;
+  background-image: linear-gradient(to left, #17b8bd, #28c3b9, #42ccb1, #5ed6a8, #7bde9d);
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 110rpx;
+  color: #e2fdfd;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-top: 80rpx;
+}
+
